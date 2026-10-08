@@ -14,3 +14,8 @@ num2=temp;
 printf("after swapimg num1:%d num2:%d",num1,num2);
 return 0;
 }
+/* with arthematic we can also swap numbers example 
+a=a+b;
+b=a-b;
+a=a-b;
+*/
