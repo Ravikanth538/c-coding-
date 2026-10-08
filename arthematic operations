@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int sum,sub,mul,divi,rem,num1,num2;
+printf("enter the two number\n");
+printf("enter the first number:");
+scanf("%d",&num1);
+printf("enter the first number:");
+scanf("%d",&num2);
+printf("sum of two numbers:%d\n",sum=num1+num2);
+printf("sub of two numbers:%d\n",sub=num1-num2);
+printf("mul of two numbers:%d\n",mul=num1*num2);
+printf("divi of two numbers:%d\n",divi=num1/num2);
+printf("rem of two numbers:%d\n",rem=num1%num2);
+return 0;
+}
