@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int sum,sub,mul,divi,rem,num1,num2;
+int sum,sub,mul,divi,rem,num1,num2,k;
 printf("enter the two number\n");
 printf("enter the first number:");
 scanf("%d",&num1);
@@ -11,6 +11,15 @@ printf("sum of two numbers:%d\n",sum=num1+num2);
 printf("sub of two numbers:%d\n",sub=num1-num2);
 printf("mul of two numbers:%d\n",mul=num1*num2);
 printf("divi of two numbers:%d\n",divi=num1/num2);
+//to get remainder of two numbers we use % 
 printf("rem of two numbers:%d\n",rem=num1%num2);
+
+
+/*operator are works on associative 
+ex: 
+k=i/j*2
+firt i/j then mul to with 2 left to right  operation */
+k=num1/num2*2;
+printf("%d",k);
 return 0;
 }
