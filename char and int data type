@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    
+    
+/* char is one byte each bytes as 8 bits they can be unsigned or signed  */
+char ch='a';
+printf("%c %d\n" ,ch,ch,ch,ch);
+
+/*char are stored in ASCII Code those vales are 
+printed and can use for operation */
+printf("%d\n",ch+10);
+
+
+/*interger 1.short int=2 bytes
+2.long int 4 bytes 
+3.long long int 8 bytes
+4.long long long int it will be too long for GCC we get error
+we can print size of data types */
+
+printf("%d\n",sizeof(int));
+printf("%d\n",sizeof(short int));
+printf("%d\n",sizeof(long int));
+printf("%d\n",sizeof(long long int));
+return 0;
+}
