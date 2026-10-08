@@ -22,5 +22,12 @@ printf("%d\n",sizeof(int));
 printf("%d\n",sizeof(short int));
 printf("%d\n",sizeof(long int));
 printf("%d\n",sizeof(long long int));
+
+//type conversion
+unsigned int i=2000000000000000000,j=3;
+unsigned long long int k;
+k=(unsigned long long)i*j;
+printf("i=%u j=%lu k=%llu\n",i,j,k);
+printf("%d %d %d\n",sizeof(i),sizeof(j),sizeof(k));
 return 0;
 }
